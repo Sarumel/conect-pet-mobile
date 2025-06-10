@@ -37,9 +37,8 @@ Contribua para o bem-estar dos animais doando para ONGs parceiras. Toda ajuda é
 - [x] **3 rotas de transição**
 
 ## 👥 Equipe | ConectPet Mobile 
-- Ana Beatriz Alves
-- Alice Mucinni
 - Flávia Sousa
 - Geovana Beltrão
 - Germária Lins
 - Samuel Barbosa
+- Valdir Pimentel
