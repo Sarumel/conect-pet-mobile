@@ -1,7 +1,0 @@
-{
-  "name": "Conect-Pet",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
