@@ -11,4 +11,14 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    command: npx ng serve --host 0.0.0.0
+    command: npm run start
+
+  nginx:
+    container_name: conect-pet-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "80:80"
+    depends_on:
+      - app
