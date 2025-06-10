@@ -1,0 +1,70 @@
+.volunteer-banner {
+  background-color: #53c09d; /* Verde principal */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  position: relative;
+}
+
+.volunteer-banner h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.volunteer-banner .volunteer-image {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.volunteer-text {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.volunteer-text .highlight {
+  color: #53c09d; /* Verde destaque */
+  font-weight: bold;
+}
+
+.contact-icons {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-icons h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon.instagram {
+  color: #e4405f; /* Cor do Instagram */
+}
+
+.icon.whatsapp {
+  color: #25d366; /* Cor do WhatsApp */
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Animação ao passar o mouse */
+}

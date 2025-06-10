@@ -1,0 +1,27 @@
+<!-- Header -->
+<ion-toolbar>
+  <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+  </ion-buttons>
+  <ion-title>ConectPet</ion-title>
+</ion-toolbar>
+
+<!-- Conteúdo Principal -->
+<ng-content></ng-content>
+
+<!-- Rodapé -->
+<ion-footer class="navigation-footer" [hidden]="isHidden">
+  <ion-toolbar>
+    <div class="footer-buttons">
+      <!-- Botão Voltar -->
+      <ion-button class="nav-button" color="light" (click)="goBack()">
+        <img src="assets/images/voltar.png" alt="Voltar" class="footer-icon" />
+      </ion-button>
+
+      <!-- Botão Home -->
+      <ion-button class="nav-button" color="light" (click)="goHome()">
+        <img src="assets/images/home.png" alt="Home" class="footer-icon" />
+      </ion-button>
+    </div>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,24 @@
+{
+  "typescript.preferences.autoImportFileExcludePatterns": [
+    "@ionic/angular/common",
+    "@ionic/angular/standalone"
+  ],
+  "cSpell.words": [
+    "aplicação",
+    "arquivos",
+    "código",
+    "Comando",
+    "Copiar",
+    "Criar",
+    "dependência",
+    "diretório",
+    "Expor",
+    "Imagem",
+    "inicialização",
+    "instalar",
+    "pelo",
+    "porta",
+    "restante",
+    "usada"
+  ]
+}
